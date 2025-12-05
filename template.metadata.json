@@ -1,0 +1,40 @@
+{
+  "name": "VladimirAndreyev template",
+  "title": "Expo: Debug Screen 템플릿",
+  "description": "expo-router 문제 격리용 DebugScreen 패턴(환경 토글, CI 안전 검사, 템플릿 복사 스크립트 포함)",
+  "category": "expo/mobile",
+  "tags": ["expo", "expo-router", "debug", "template"],
+  "platforms": ["android", "ios", "web"],
+  "entry": "App.tsx",
+  "nodeVersion": ">=18",
+  "placeholders": [
+    {
+      "key": "TEMPLATE_APP_NAME",
+      "label": "App name",
+      "default": "MyApp",
+      "description": "Human-friendly app name shown in app.json / README"
+    },
+    {
+      "key": "TEMPLATE_AUTHOR",
+      "label": "Author",
+      "default": "",
+      "description": "Author or organization name"
+    },
+    {
+      "key": "TEMPLATE_PACKAGE_ID",
+      "label": "Package identifier",
+      "default": "com.example.myapp",
+      "description": "Android bundle id / iOS bundle identifier"
+    }
+  ],
+  "recommendedCommands": {
+    "install": "npm install",
+    "start": "npm start",
+    "debugStart": "npm run debug:start"
+  },
+  "screenshots": [
+    "tools/templates/debug-screen/screenshots/web-screenshot.svg",
+    "tools/templates/debug-screen/screenshots/mobile-screenshot.svg"
+  ],
+  "notes": "Do not include secrets in placeholders. Platform should respect 'no install scripts' policy when building templates."
+}

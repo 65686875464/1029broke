@@ -1,0 +1,14 @@
+{
+  "name": "my-app-gen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "install": "npm install"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "description": "Generated sample app for template testing",
+  "license": "MIT"
+}
